@@ -22,11 +22,11 @@ jobs:
        # Provide the Tenant for AST portal URL
        cx_tenant: nfr_redshift_nfr
        # Client ID for AST portal authentication
-       cx_client_id: AST_GITHUB
-       #cx_client_id: ${{ secrets.CLIENT_ID }}
+       #cx_client_id: AST_GITHUB
+       cx_client_id: ${{ secrets.CLIENT_ID }}
        # Secret key for AST portal authentication
-       cx_client_secret: fu30vFdNmUe4llKg7SyxyHvl50fD2zdb
-       #cx_client_secret: ${{ secrets.SECRET }}
+       #cx_client_secret: fu30vFdNmUe4llKg7SyxyHvl50fD2zdb
+       cx_client_secret: ${{ secrets.SECRET }}
        # Select a Checkmarx Project Name
        # optional, default is ${{ github.repository }}
        project_name: CxONE_WebGoat
