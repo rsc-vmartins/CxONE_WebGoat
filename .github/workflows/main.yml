@@ -27,7 +27,7 @@ jobs:
        cx_client_secret: ${{ secrets.SECRET }}
        # Select a Checkmarx Project Name
        # optional, default is ${{ github.repository }}
-       project_name: ${{ github.repository }}
+       project_name: CxONE_WebGoat
        # Branch name
        # optional, default is ${{ github.head_ref || github.ref }}
-       branch: ${{ github.head_ref}}
+       branch: main
